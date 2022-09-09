@@ -1,0 +1,7 @@
+# Builds and modules
+build
+dist
+node_modules
+
+#Files
+*-lock.json
