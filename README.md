@@ -26,7 +26,7 @@ al realizar pruebas en local viene configurado de la siguiente manera:
 
 ### Instalación
 
-Para poder ejecutar la aplicación, se deben instalar las dependencias de nodeJS que sean requeridas. Para ello se debe ejecutar el siguiente comando:
+Se deben instalar las dependencias de nodeJS que sean requeridas. Para ello se debe ejecutar el siguiente comando:
 
 ```
 npm install
@@ -34,7 +34,7 @@ npm install
 
 ### Ejecución
 
-Para ejecutar nuestra API, se debe ejecutar el comando:
+Para ejecutar la aplicación se debe ingresar el comando:
 
 ```
 npm start
@@ -44,19 +44,7 @@ npm start
 
 Algunos ejemplos para la utilización y pruebas de la API (se sugiere realizar las peticiones a través de Postman) son los siguientes:
 
-* Agregar animales a través de petición POST
-
-```
-http://localhost:3000/animals/create
-
-{
-	"name":"animal_name",
-	"type":"animal_type",
-	"age":animal_age
-}
-```
-
-* Obtener animales registrados en la base de datos mediante GET
+* Obtener todos los animales de la tabla:
 
 ```
 http://localhost:3000/animals/getAll
