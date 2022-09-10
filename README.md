@@ -9,8 +9,6 @@ Antes de continuar, debemos asegurarnos de tener instalado y ejecutando en nuest
 * NPM v6.14.13 o superior
 * MySQL
 
-NOTA: Se puede consultar las versiones instaladas utilizando ``node -v``, ``npm -v`` y ``mysql -v`` respectivamente.
-
 ### Configuración
 
 Para ejecutar la aplicación, se deben configurar las credenciales para la conexión a la base de datos de MySQL. Para ello debemos modificar el archivo **database.js**. Por defecto
@@ -20,7 +18,7 @@ al realizar pruebas en local viene configurado de la siguiente manera:
 {
     "host": "localhost",
     "port": 3306,
-    "database":"animals",
+    "database":"animalsdb",
     "user": "root",
     "password": ""
 }
