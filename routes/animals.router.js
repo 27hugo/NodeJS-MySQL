@@ -2,11 +2,10 @@
 
 var express = require("express");
 
-var service = require("../services/animals.service");
+var controller = require("../controllers/animals.controller");
 
 var router = express.Router();
 
-//GET REQUEST
-router.get("/getAll", service.getAll);
+router.get("/getAll", controller.getAll);
 
 module.exports = router;
